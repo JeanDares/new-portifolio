@@ -7,7 +7,7 @@ import casamento from '../../assets/casamento.png';
 import treinamento from '../../assets/treinamento.png';
 import petrobras from '../../assets/petrobras.png';
 import dcg from '../../assets/dcg.png';
-import blackfriday from '../../assets/blackfriday.png';
+import blackfriday from '../../assets/blackFriday.png';
 import agile from '../../assets/agile.png';
 import apresentacao from '../../assets/apresentacao.png';
 import timeEscola from '../../assets/timeEscola.png';
