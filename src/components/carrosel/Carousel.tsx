@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai'; // Ícones de navegação
 import familia from '../../assets/image.png';
 import comemoracao from '../../assets/comemoracao.png';
@@ -14,6 +14,7 @@ import timeEscola from '../../assets/timeEscola.png';
 import comemorar from '../../assets/comemorar.png';
 import sebrae from '../../assets/sebrae.png';
 import ucs from '../../assets/escolaInovacaoUcs.png';
+import { useState } from 'react';
 
 const images = [
     {
