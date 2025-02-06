@@ -73,11 +73,14 @@ function About() {
 
                 {/* Seção de Imagem */}
                 <div className="lg:w-1/2 flex justify-center pt-32">
-                    <img
-                        src={profileImage}
-                        alt="Jean Borges"
-                        className="w-full max-w-md rounded-lg shadow-lg object-cover"
-                    />
+                    <div className="lg:w-1/2 flex justify-center pt-32">
+                        <img
+                            src="/image_profile_2.jpg"
+                            alt="Jean Borges"
+                            className="w-full max-w-md rounded-lg shadow-lg object-cover"
+                        />
+                    </div>
+
                 </div>
             </div>
 
