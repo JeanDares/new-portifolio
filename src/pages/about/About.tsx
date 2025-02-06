@@ -1,4 +1,4 @@
-import profileImage from '../../../public/image_profile_2.jpg';
+
 import Carousel from '../../components/carrosel/Carousel';
 
 function About() {
