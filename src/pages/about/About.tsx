@@ -21,7 +21,7 @@ function About() {
                 <section>
                     <h2 className="text-2xl font-semibold text-gray-800">Disciplinado pela vida</h2>
                     <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                        Aos 18 anos, passei no concurso do Corpo de Bombeiros, onde permaneci por quase oito anos. Foi um período de aprendizado intenso. Aprendi o valor do trabalho em equipe, da disciplina e da resiliência. Cada missão de resgate era um lembrete de que as pequenas ações podem ter grandes impactos. Mas também foi ali que percebi que eu queria explorar novos caminhos.
+                        Aprendi o valor do trabalho em equipe, da disciplina e da resiliência. Cada missão de resgate era um lembrete de que as pequenas ações podem ter grandes impactos. Mas também foi ali que percebi que eu queria explorar novos caminhos.
                     </p>
                 </section>
 

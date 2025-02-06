@@ -15,7 +15,10 @@ function MainLayout({ children }: { children: React.ReactNode }) {
                 <ul className="hidden md:flex space-x-8 text-lg text-gray-500">
                     <li><Link to="/" className="text-gray-dark hover:text-black transition">Home</Link></li>
                     <li><Link to="/about" className="text-gray-dark hover:text-black transition">Me</Link></li>
+                    <li><Link to="/professional" className="text-gray-dark hover:text-black transition">Professional</Link></li>
+
                     <li><Link to="/projects" className="text-gray-dark hover:text-black transition">Projects</Link></li>
+
                     <li><Link to="/formation" className="text-gray-dark hover:text-black transition">Training</Link></li>
                     <li><Link to="/contact" className="text-gray-dark hover:text-black transition">Contact</Link></li>
                 </ul>
