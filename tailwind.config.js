@@ -9,11 +9,10 @@ module.exports = {
         'gray-light': '#f2f2f2',
       },
       fontFamily: {
-        serif: ['"Lora"', 'serif'],
+        serif: ['"Playfair Display"', '"Lora"', 'serif'],
         sans: ['"Montserrat"', 'sans-serif'],
       },
     }
-    
   },
   plugins: [],
 }

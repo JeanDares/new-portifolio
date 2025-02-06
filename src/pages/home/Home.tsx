@@ -1,60 +1,39 @@
-import React from 'react';
-import { AiOutlineInstagram, AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai';
+
 
 function Home() {
     return (
-        <div className="bg-gray-100 relative min-h-screen md:h-[calc(100vh-5rem)] flex flex-col items-center justify-center text-center px-4">
-            {/* Card minimalista */}
-            <div className="bg-white border border-gray-200 rounded-lg p-8 max-w-2xl">
-                <h1 className="text-3xl sm:text-4xl font-serif text-gray-800 mb-4">
-                    Bem-vindo ao meu portfólio
-                </h1>
-                <p className="text-base sm:text-lg md:text-xl text-gray-600 leading-relaxed">
-                    Inspirado em modelos minimalistas, este portfólio busca destacar o essencial: projetos,
-                    experiências e minha trajetória. Obrigado por dedicar seu tempo para explorá-lo. Espero que encontre algo inspirador.
-                </p>
-            </div>
+        <div className="min-h-screen flex flex-col justify-between bg-white text-black px-8 lg:px-50">
+            {/* Texto principal centralizado */}
+            <main className="flex-grow flex items-center">
+                <div className="space-y-6 max-w-4xl">
+                    <p className="text-2xl sm:text-4xl  font-serif leading-tight text-gray-700">
+                        Inspirado em modelos minimalistas, <br />
+                        este portfólio busca destacar o essencial: <br /> <br />
+                        projetos, <br />
+                        experiências,  <br />
+                        e minha trajetória. <br /> <br />
+                        Obrigado por
+                        dedicar seu tempo para explorá-lo. Espero que goste...
+                    </p>
 
-            {/* Redes sociais no canto inferior esquerdo */}
-            <div className="absolute bottom-4 left-4 sm:bottom-8 sm:left-8 flex space-x-4">
-                <a
-                    href="https://www.instagram.com/borges_jean/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-600 text-2xl hover:text-gray-800 transition"
-                >
-                    <AiOutlineInstagram />
-                </a>
-                <a
-                    href="https://www.linkedin.com/in/jean-borges-9a0b201b5/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-600 text-2xl hover:text-gray-800 transition"
-                >
-                    <AiOutlineLinkedin />
-                </a>
-                <a
-                    href="https://github.com/JeanDares"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-600 text-2xl hover:text-gray-800 transition"
-                >
-                    <AiOutlineGithub />
-                </a>
-            </div>
+                </div>
+            </main>
 
-            {/* Citação no canto inferior direito */}
-            <div className="absolute bottom-4 right-4 sm:bottom-8 sm:right-8 text-right">
-                <blockquote className="text-sm sm:text-base md:text-lg font-serif italic text-gray-700 leading-relaxed">
-                    "Conheça todas as teorias, <br />
-                    domine todas as técnicas, <br />
-                    mas ao tocar uma alma humana, <br />
-                    seja outra alma humana."
-                    <footer className="mt-2 text-xs sm:text-sm md:text-base text-gray-500">
-                        — Carl G. Jung
-                    </footer>
-                </blockquote>
-            </div>
+            {/* Rodapé com redes sociais em texto */}
+            <footer className="flex justify-between items-center py-4">
+                <div className="space-x-6 text-gray-400 text-sm md:text-base">
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-black">
+                        Instagram
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-black">
+                        Linkedin
+                    </a>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-black">
+                        Github
+                    </a>
+                    <a href="mailto:jeanborgesdares@gmail.com" className="hover:text-black">Mail</a>
+                </div>
+            </footer>
         </div>
     );
 }
