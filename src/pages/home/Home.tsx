@@ -22,13 +22,13 @@ function Home() {
             {/* Rodapé com redes sociais em texto */}
             <footer className="flex justify-between items-center py-4">
                 <div className="space-x-6 text-gray-400 text-sm md:text-base">
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-black">
+                    <a href="https://www.instagram.com/borges_jean/" target="_blank" rel="noopener noreferrer" className="hover:text-black">
                         Instagram
                     </a>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-black">
+                    <a href="https://www.linkedin.com/in/jean-borges-9a0b201b5/" target="_blank" rel="noopener noreferrer" className="hover:text-black">
                         Linkedin
                     </a>
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-black">
+                    <a href="https://github.com/JeanDares" target="_blank" rel="noopener noreferrer" className="hover:text-black">
                         Github
                     </a>
                     <a href="mailto:jeanborgesdares@gmail.com" className="hover:text-black">Mail</a>
