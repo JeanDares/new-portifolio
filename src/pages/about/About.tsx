@@ -81,6 +81,16 @@ function About() {
                 </div>
             </div>
 
+            {/* Mensagem antes do carrossel */}
+            <div className="w-full text-center py-8">
+                <h2 className="text-3xl font-semibold text-gray-800">Explorando Minha Jornada</h2>
+                <p className="mt-4 text-lg text-gray-600 px-4 lg:px-50">
+                    Aqui estão alguns dos momentos que definem quem eu sou: minha vida pessoal, conquistas,
+                    amigos e aventuras. Através dessas fotos, você verá um pouco mais da minha jornada
+                    além do trabalho.
+                </p>
+            </div>
+
             {/* Carrossel fora do container */}
             <div className="w-full py-12 px-4">
                 <Carousel />
