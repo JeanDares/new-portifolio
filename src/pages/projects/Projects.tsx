@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import CardProject from '../../components/CardProject';
 import Modal from '../../components/Modal';
 
@@ -7,6 +7,7 @@ import calculadora from '../../assets/calculadora.png';
 import forms from '../../assets/forms.png';
 import logidados from '../../assets/logidados.png';
 import projeto_back from '../../assets/projeto_back.png';
+import { useState } from 'react';
 
 // Definindo o tipo dos projetos
 interface Project {
