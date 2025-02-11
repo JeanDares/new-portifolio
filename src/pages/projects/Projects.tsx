@@ -7,6 +7,7 @@ import calculadora from '../../assets/calculadora.png';
 import forms from '../../assets/forms.png';
 import logidados from '../../assets/logidados.png';
 import projeto_back from '../../assets/projeto_back.png';
+import uploadImage from '../../assets/uploadImage.png';
 import { useState } from 'react';
 
 // Definindo o tipo dos projetos
@@ -43,15 +44,14 @@ const projects: Project[] = [
         "type": "Fullstack",
         "liveDemoLink": "https://front-agencia.vercel.app/"
     },
-
     {
-        "image": calculadora,
-        "title": "Calculadora Simples - Primeiros Passos com Angular",
-        "description": "Uma calculadora básica desenvolvida como um projeto introdutório ao Angular. Com uma interface intuitiva, permite realizar operações matemáticas simples, como soma, subtração, multiplicação e divisão.",
-        "technologies": ["Angular"],
-        "githubLinkfront": "https://github.com/JeanDares/calculadora_angular",
-        "type": "Frontend",
-        "liveDemoLink": "https://calculadora-angular-jet.vercel.app/"
+        "image": uploadImage,
+        "title": "Upload de Imagens - Armazenamento em Memória",
+        "description": "Projeto simples para upload, armazenamento e manipulação de imagens. Utiliza Multer com MemoryStorage no backend, permitindo testar diferentes opções de upload e armazenar as imagens em um banco PostgreSQL.",
+        "technologies": ["Node.js", "PostgreSQL", "Docker"],
+        "githublinkback": "https://github.com/JeanDares/bkn-uploadImg",
+        "githubLinkfront": "https://github.com/JeanDares/frn-uploadimg",
+        "liveDemoLink": "https://frn-uploadimg.onrender.com/"
     },
     {
         "image": logidados,
@@ -67,14 +67,19 @@ const projects: Project[] = [
         "description": "Um sistema de autenticação de usuários desenvolvido com Node.js e PostgreSQL. Permite o cadastro de novos usuários, login e logout, além de verificar a autenticidade das credenciais. As senhas são criptografadas antes de serem armazenadas no banco de dados.",
         "technologies": ["Node.js", "PostgreSQL"],
         "githublinkback": "https://github.com/JeanDares/bkn_auth/tree/main",
-    }
+    },
 
 
 
-
-
-
-
+    {
+        "image": calculadora,
+        "title": "Calculadora Simples - Primeiros Passos com Angular",
+        "description": "Uma calculadora básica desenvolvida como um projeto introdutório ao Angular. Com uma interface intuitiva, permite realizar operações matemáticas simples, como soma, subtração, multiplicação e divisão.",
+        "technologies": ["Angular"],
+        "githubLinkfront": "https://github.com/JeanDares/calculadora_angular",
+        "type": "Frontend",
+        "liveDemoLink": "https://calculadora-angular-jet.vercel.app/"
+    },
 ];
 
 
@@ -91,10 +96,23 @@ function ProfessionalProjects() {
 
     return (
         <div className="min-h-screen bg-white py-24 px-8 lg:px-50">
-            <h1 className="text-4xl md:text-6xl font-bold font-serif text-gray-800 leading-tight text-center mb-12">
-                Meus Projetos Profissionais
+
+            <h1 className="text-4xl md:text-6xl font-bold font-serif text-gray-800 leading-tight mb-10 ">
+                <br />
+                <span className="text-2xl md:text-3xl text-gray-500">Alguns projetos</span>
             </h1>
 
+
+            {/* Introdução */}
+            <section className=' mb-10'>
+                <p className="mt-4 text-lg text-gray-700 leading-relaxed text-start">
+                    Ao longo da minha trajetória como desenvolvedor, busco constantemente aprimorar meus métodos e escrever códigos mais eficientes, organizados e escaláveis.
+                    Cada projeto reflete essa evolução, desde a estruturação da arquitetura até a otimização do desempenho e da usabilidade.
+                    Aqui estão alguns exemplos do meu trabalho, onde aplico boas práticas, novas tecnologias e melhorias contínuas a cada desafio.
+                </p>
+
+
+            </section>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {projects.map((project, index) => (
                     <div key={index} onClick={() => handleProjectClick(project)} className="cursor-pointer">
