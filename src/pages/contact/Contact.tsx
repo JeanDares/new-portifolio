@@ -28,7 +28,6 @@ const Contact: React.FC = () => {
                 'FuVnTpJsuYOIjk3iY'
             );
 
-
             alert("Mensagem enviada com sucesso!");
             setFormData({ name: '', email: '', message: '' });
 
@@ -39,24 +38,22 @@ const Contact: React.FC = () => {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen px-24  py-10 bg-gray-50">
-            <h1 className="text-4xl md:text-6xl font-bold font-serif text-gray-800 leading-tight text-center mb-6">
-                <br />
+        <div className="flex flex-col items-center justify-center min-h-screen px-6 py-8 bg-gray-50">
+            <h1 className="text-4xl md:text-5xl font-bold font-serif text-gray-800 leading-tight text-center mb-4">
                 <span className="text-2xl md:text-3xl text-gray-500">Entre em Contato</span>
             </h1>
 
-            <p className="text-lg text-gray-600 text-center max-w-2xl mb-10">
+            <p className="text-md text-gray-600 text-center max-w-3xl mb-6">
                 Se quiser bater um papo, discutir um projeto ou apenas dizer olá, estou à disposição!
-                Preencha o formulário abaixo ou entre em contato diretamente. 🚀
             </p>
 
             {/* Informações de Contato */}
-            <div className="bg-white p-8 shadow-lg rounded-2xl w-full max-w-lg text-center mb-8">
+            <div className="bg-white p-6 shadow-md rounded-xl w-full max-w-2xl text-center mb-6">
                 <p className="text-gray-700 font-medium flex items-center justify-center space-x-2">
                     <FaMapMarkerAlt className="text-gray-600" />
                     <span>Caxias do Sul - RS</span>
                 </p>
-                <p className="text-gray-700 font-medium flex items-center justify-center space-x-2 mt-3">
+                <p className="text-gray-700 font-medium flex items-center justify-center space-x-2 mt-2">
                     <FaWhatsapp className="text-green-500" />
                     <a
                         href="https://wa.me/554999066186"
@@ -70,8 +67,8 @@ const Contact: React.FC = () => {
             </div>
 
             {/* Formulário de Contato */}
-            <div className="bg-white p-8 shadow-lg rounded-2xl w-full max-w-lg">
-                <form onSubmit={handleSubmit} className="flex flex-col space-y-6">
+            <div className="bg-white p-6 shadow-md rounded-xl w-full max-w-2xl">
+                <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
                     <div>
                         <label className="text-gray-700 font-semibold">Nome</label>
                         <input
@@ -80,7 +77,7 @@ const Contact: React.FC = () => {
                             value={formData.name}
                             onChange={handleChange}
                             required
-                            className="w-full mt-2 px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-300"
+                            className="w-full mt-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-300"
                             placeholder="Seu nome"
                         />
                     </div>
@@ -93,7 +90,7 @@ const Contact: React.FC = () => {
                             value={formData.email}
                             onChange={handleChange}
                             required
-                            className="w-full mt-2 px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-300"
+                            className="w-full mt-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-300"
                             placeholder="seuemail@exemplo.com"
                         />
                     </div>
@@ -105,8 +102,7 @@ const Contact: React.FC = () => {
                             value={formData.message}
                             onChange={handleChange}
                             required
-                            className="w-full mt-2 px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-300 resize-none"
-                            rows={5}
+                            className="w-full mt-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-300 resize-none h-28"
                             placeholder="Escreva sua mensagem aqui..."
                         />
                     </div>
@@ -121,18 +117,18 @@ const Contact: React.FC = () => {
             </div>
 
             {/* Redes Sociais */}
-            <div className="flex space-x-6 text-gray-500 text-lg mt-10">
+            <div className="flex space-x-6 text-gray-500 text-lg mt-6">
                 <a href="https://www.instagram.com/borges_jean/" target="_blank" rel="noopener noreferrer" className="hover:text-black transition">
-                    <FaInstagram size={24} />
+                    <FaInstagram size={22} />
                 </a>
                 <a href="https://www.linkedin.com/in/jean-borges-9a0b201b5/" target="_blank" rel="noopener noreferrer" className="hover:text-black transition">
-                    <FaLinkedin size={24} />
+                    <FaLinkedin size={22} />
                 </a>
                 <a href="https://github.com/JeanDares" target="_blank" rel="noopener noreferrer" className="hover:text-black transition">
-                    <FaGithub size={24} />
+                    <FaGithub size={22} />
                 </a>
                 <a href="mailto:jeanborgesdares@gmail.com" className="hover:text-black transition">
-                    <FaEnvelope size={24} />
+                    <FaEnvelope size={22} />
                 </a>
             </div>
         </div>
