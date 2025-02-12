@@ -13,12 +13,12 @@ function MainLayout({ children }: { children: React.ReactNode }) {
 
                 {/* Menu para desktop */}
                 <ul className="hidden md:flex space-x-8 text-lg text-gray-500">
-                    <li><Link to="/" className="text-gray-dark hover:text-black transition">Home</Link></li>
-                    <li><Link to="/about" className="text-gray-dark hover:text-black transition">Me</Link></li>
-                    <li><Link to="/professional" className="text-gray-dark hover:text-black transition">Professional</Link></li>
-                    <li><Link to="/projects" className="text-gray-dark hover:text-black transition">Projects</Link></li>
-                    <li><Link to="/formation" className="text-gray-dark hover:text-black transition">Training</Link></li>
-                    <li><Link to="/contact" className="text-gray-dark hover:text-black transition">Contact</Link></li>
+                    <li><Link to="/" className="text-gray-dark hover:text-black transition">Início</Link></li>
+                    <li><Link to="/about" className="text-gray-dark hover:text-black transition">Sobre</Link></li>
+                    <li><Link to="/professional" className="text-gray-dark hover:text-black transition">Profissional</Link></li>
+                    <li><Link to="/projects" className="text-gray-dark hover:text-black transition">Projetos</Link></li>
+                    <li><Link to="/experiences" className="text-gray-dark hover:text-black transition">Certificados</Link></li>
+                    <li><Link to="/contact" className="text-gray-dark hover:text-black transition">Contato</Link></li>
                 </ul>
 
                 {/* Botão de menu mobile */}
@@ -35,12 +35,12 @@ function MainLayout({ children }: { children: React.ReactNode }) {
                 className={`fixed inset-0 bg-gray-100 z-40 transform ${menuOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out md:hidden`}
             >
                 <ul className="flex flex-col items-center justify-center h-full space-y-6 text-lg text-gray-700">
-                    <li><Link to="/" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Home</Link></li>
-                    <li><Link to="/about" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Me</Link></li>
-                    <li><Link to="/professional" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Professional</Link></li>
-                    <li><Link to="/projects" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Projects</Link></li>
-                    <li><Link to="/formation" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Training</Link></li>
-                    <li><Link to="/contact" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Contact</Link></li>
+                    <li><Link to="/" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Início</Link></li>
+                    <li><Link to="/about" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Sobre</Link></li>
+                    <li><Link to="/professional" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Profissional</Link></li>
+                    <li><Link to="/projects" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Projetos</Link></li>
+                    <li><Link to="/formation" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Formação</Link></li>
+                    <li><Link to="/contact" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Contato</Link></li>
                 </ul>
             </div>
 

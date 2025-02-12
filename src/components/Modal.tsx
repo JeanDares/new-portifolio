@@ -5,7 +5,7 @@ interface ModalProps {
     title: string;
     description: string;
     image: string;
-    technologies: string[];
+    technologies?: string[];
     onClose: () => void;
     githubLinkFront?: string;
     githubLinkBack?: string;
@@ -41,7 +41,7 @@ const Modal: React.FC<ModalProps> = ({
 
                 {/* Ícones das Tecnologias */}
                 <div className="flex justify-center gap-4 text-xl text-gray-700">
-                    {technologies.map((tech, index) => (
+                    {technologies?.map((tech, index) => (
                         <div key={index} className="flex items-center">
                             {techIcons[tech] || <span className="text-xs">{tech}</span>}
                         </div>

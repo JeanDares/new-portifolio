@@ -4,7 +4,7 @@ import { techIcons } from '../utils/icons'; // Importe os ícones
 interface CardProjectProps {
     image: string;
     title: string;
-    technologies: string[];
+    technologies?: string[];
     type?: 'Frontend' | 'Backend' | 'Fullstack'; // Agora é opcional
 }
 
@@ -39,7 +39,7 @@ const CardProject: React.FC<CardProjectProps> = ({ image, title, technologies, t
             <div className="p-4">
                 <h2 className="text-[12px] font-semibold text-gray-800 mb-2">{title}</h2>
                 <div className="flex gap-2 flex-wrap">
-                    {technologies.map((tech, index) => (
+                    {technologies?.map((tech, index) => (
                         <div key={index} className="flex items-center text-gray-600 text-lg">
                             {techIcons[tech] || <span className="text-xs">{tech}</span>}
                         </div>
