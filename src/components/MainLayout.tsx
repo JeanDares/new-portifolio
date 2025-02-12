@@ -39,7 +39,7 @@ function MainLayout({ children }: { children: React.ReactNode }) {
                     <li><Link to="/about" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Sobre</Link></li>
                     <li><Link to="/professional" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Profissional</Link></li>
                     <li><Link to="/projects" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Projetos</Link></li>
-                    <li><Link to="/formation" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Formação</Link></li>
+                    <li><Link to="/experiences" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Certificados</Link></li>
                     <li><Link to="/contact" onClick={() => setMenuOpen(false)} className="hover:text-black transition">Contato</Link></li>
                 </ul>
             </div>
