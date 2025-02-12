@@ -9,7 +9,9 @@ function MainLayout({ children }: { children: React.ReactNode }) {
         <div className="flex flex-col min-h-screen">
             {/* Navbar fixa no topo */}
             <nav className="w-full fixed left-0 bg-white p-4 flex items-center justify-between z-50 h-16 md:h-20 px-8 lg:px-50">
-                <h1 className="text-[18px] font-serif italic text-gray-dark pl-10">Jean Borges</h1>
+                <Link to="/about" className="text-[18px] font-serif italic text-gray-dark pl-10 hover:text-black transition">
+                    Jean Borges
+                </Link>
 
                 {/* Menu para desktop */}
                 <ul className="hidden md:flex space-x-8 text-lg text-gray-500">
