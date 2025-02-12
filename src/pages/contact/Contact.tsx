@@ -40,6 +40,7 @@ const Contact: React.FC = () => {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen px-4 sm:px-8 md:px-12 py-6 bg-gray-50">
             <h1 className="text-3xl md:text-5xl font-bold font-serif text-gray-800 leading-tight text-center mb-4">
+                <br />
                 <span className="text-xl md:text-2xl text-gray-500">Entre em Contato</span>
             </h1>
 
