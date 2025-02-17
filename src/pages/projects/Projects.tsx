@@ -8,6 +8,7 @@ import forms from '../../assets/forms.png';
 import logidados from '../../assets/logidados.png';
 import projeto_back from '../../assets/projeto_back.png';
 import uploadImage from '../../assets/uploadImage.png';
+import solid1 from '../../assets/solid1.png';
 import { useState } from 'react';
 
 // Definindo o tipo dos projetos
@@ -24,6 +25,14 @@ interface Project {
 
 
 const projects: Project[] = [
+    {
+        image: solid1,
+        title: "API SOLID - Arquitetura Limpa e Escalável em Node.js",
+        description: "Uma API desenvolvida com Node.js, seguindo os princípios SOLID para garantir um código modular, reutilizável e de fácil manutenção. O projeto implementa Inversão de Dependência, Segregação de Interfaces e Responsabilidade Única, organizando as responsabilidades entre casos de uso, repositórios, provedores e controladores.",
+        technologies: ["Node.js", "PostgreSQL",],
+        githublinkback: "https://github.com/JeanDares/princ-pios_solid_api_rest/tree/main",
+        type: "Backend", // Aqui indicamos o tipo do projeto
+    },
     {
         image: bookmatch,
         title: "BookMatch - Recomendações Inteligentes de Livros",
@@ -51,7 +60,8 @@ const projects: Project[] = [
         "technologies": ["Node.js", "PostgreSQL", "Docker"],
         "githublinkback": "https://github.com/JeanDares/bkn-uploadImg",
         "githubLinkfront": "https://github.com/JeanDares/frn-uploadimg",
-        "liveDemoLink": "https://frn-uploadimg.onrender.com/"
+        "liveDemoLink": "https://frn-uploadimg.onrender.com/",
+        "type": "Fullstack",
     },
     {
         "image": logidados,
@@ -59,7 +69,8 @@ const projects: Project[] = [
         "description": "Um site institucional desenvolvido para a empresa LogiDados, apresentando sua solução ERP de forma clara e profissional. Construído como um site estático em React, o projeto destaca os principais recursos da plataforma e seus benefícios para a gestão empresarial.",
         "technologies": ["Angular", "HTML"],
         "githubLinkfront": "https://github.com/JeanDares/logidados",
-        "liveDemoLink": "https://site.logidados.com.br/"
+        "liveDemoLink": "https://site.logidados.com.br/",
+        "type": "Frontend",
     },
     {
         "image": projeto_back,
@@ -67,6 +78,7 @@ const projects: Project[] = [
         "description": "Um sistema de autenticação de usuários desenvolvido com Node.js e PostgreSQL. Permite o cadastro de novos usuários, login e logout, além de verificar a autenticidade das credenciais. As senhas são criptografadas antes de serem armazenadas no banco de dados.",
         "technologies": ["Node.js", "PostgreSQL"],
         "githublinkback": "https://github.com/JeanDares/bkn_auth/tree/main",
+        "type": "Backend",
     },
 
 
