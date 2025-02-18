@@ -45,24 +45,16 @@ function About() {
                         </p>
                     </section>
 
-                    {/* Visão sobre tecnologia */}
+                    {/* Soft Skills */}
                     <section>
-                        <h2 className="text-2xl font-semibold text-gray-800">Um desenvolvedor generalista</h2>
-                        <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            Me considero um profissional generalista, com uma visão ampla sobre o ciclo de vida do software. Acredito que um desenvolvedor não deve apenas dominar ferramentas, mas também compreender o negócio, a dor do usuário e o propósito do projeto. Minha jornada me levou a desenvolver soluções tanto no backend, com <strong>Node.js</strong>, quanto no frontend, com <strong>React</strong>, além de aprofundar meus conhecimentos em <strong>PostgreSQL</strong> e infraestrutura na <strong>GCP</strong>.
-                        </p>
-                    </section>
-
-                    {/* Hard Skills Técnicas */}
-                    <section>
-                        <h2 className="text-2xl font-semibold text-gray-800">Hard Skills Técnicas</h2>
+                        <h2 className="text-2xl font-semibold text-gray-800">Minhas Soft Skills</h2>
                         <ul className="list-disc list-inside mt-4 text-lg text-gray-700">
-                            <li><strong>Backend:</strong> Node.js, Express.js, arquitetura de microserviços</li>
-                            <li><strong>Frontend:</strong> React.js, React Native</li>
-                            <li><strong>Banco de Dados:</strong> PostgreSQL, SQL otimizado</li>
-                            <li><strong>Infraestrutura:</strong> GCP, Docker, Portainer</li>
-                            <li><strong>Versionamento:</strong> GitLab, GitHub, CI/CD</li>
-                            <li><strong>Práticas de Desenvolvimento:</strong> Clean code, testes automatizados</li>
+                            <li><strong>Trabalho em Equipe:</strong> Gosto de colaborar e aprender com colegas, fortalecendo a troca de conhecimento.</li>
+                            <li><strong>Resiliência:</strong> Minha trajetória me ensinou a enfrentar desafios e encontrar soluções, independentemente das dificuldades.</li>
+                            <li><strong>Comunicação:</strong> Prezo pela clareza e objetividade ao compartilhar ideias e feedbacks.</li>
+                            <li><strong>Adaptabilidade:</strong> Sempre disposto a aprender novas tecnologias e metodologias para acompanhar o mercado.</li>
+                            <li><strong>Gestão de Tempo:</strong> Organizo minhas tarefas para ser produtivo e garantir entregas de qualidade.</li>
+                            <li><strong>Proatividade:</strong> Não espero as coisas acontecerem, busco antecipar problemas e propor melhorias.</li>
                         </ul>
                     </section>
                 </div>
