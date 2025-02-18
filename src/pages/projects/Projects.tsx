@@ -6,7 +6,7 @@ import bookmatch from '../../assets/bookmatch.png';
 import calculadora from '../../assets/calculadora.png';
 import forms from '../../assets/forms.png';
 import logidados from '../../assets/logidados.png';
-import projeto_back from '../../assets/projeto_back.png';
+import autenticacao from '../../assets/autenticacao.png';
 import uploadImage from '../../assets/uploadImage.png';
 import solid1 from '../../assets/solid1.png';
 import { useState } from 'react';
@@ -25,6 +25,14 @@ interface Project {
 
 
 const projects: Project[] = [
+    {
+        "image": autenticacao,
+        "title": "Projeto Back - Sistema Autenticador de Usuários",
+        "description": "Um sistema de autenticação de usuários desenvolvido com Node.js e PostgreSQL. Permite o cadastro de novos usuários, login e logout, além de verificar a autenticidade das credenciais. As senhas são criptografadas antes de serem armazenadas no banco de dados.",
+        "technologies": ["Node.js", "PostgreSQL"],
+        "githublinkback": "https://github.com/JeanDares/bkn_auth/tree/main",
+        "type": "Backend",
+    },
     {
         image: solid1,
         title: "API SOLID - Arquitetura Limpa e Escalável em Node.js",
@@ -72,14 +80,7 @@ const projects: Project[] = [
         "liveDemoLink": "https://site.logidados.com.br/",
         "type": "Frontend",
     },
-    {
-        "image": projeto_back,
-        "title": "Projeto Back - Sistema Autenticador de Usuários",
-        "description": "Um sistema de autenticação de usuários desenvolvido com Node.js e PostgreSQL. Permite o cadastro de novos usuários, login e logout, além de verificar a autenticidade das credenciais. As senhas são criptografadas antes de serem armazenadas no banco de dados.",
-        "technologies": ["Node.js", "PostgreSQL"],
-        "githublinkback": "https://github.com/JeanDares/bkn_auth/tree/main",
-        "type": "Backend",
-    },
+
 
 
 

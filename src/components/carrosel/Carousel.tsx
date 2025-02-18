@@ -14,6 +14,7 @@ import timeEscola from '../../assets/timeEscola.png';
 import comemorar from '../../assets/comemorar.png';
 import sebrae from '../../assets/sebrae.png';
 import ucs from '../../assets/escolaInovacaoUcs.png';
+import mentor from '../../assets/mentor.png';
 import { useState } from 'react';
 
 const images = [
@@ -21,6 +22,7 @@ const images = [
         src: apresentacao,
         caption: 'Apresentando um projeto na Escola da Inovação, onde cada ideia trazia um aprendizado novo.',
     },
+
     {
         src: timeEscola,
         caption: 'Nosso time conquistou o segundo lugar no pitch de negócios da Escola da Inovação.',
@@ -28,6 +30,10 @@ const images = [
     {
         src: comemorar,
         caption: 'Celebrando o sucesso com amigos após o evento.',
+    },
+    {
+        src: mentor,
+        caption: 'Mentor do projeto de desenvolvimento profissional do movimento Agile Serra Gaucha, onde pude compartilhar conhecimento e experiência.',
     },
     {
         src: sebrae,
