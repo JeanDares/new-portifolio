@@ -1,4 +1,3 @@
-
 import Carousel from '../../components/carrosel/Carousel';
 
 function About() {
@@ -9,51 +8,48 @@ function About() {
                 <div className="lg:w-1/2 space-y-8">
                     <h1 className="text-4xl md:text-6xl font-bold font-serif text-gray-800 leading-tight">
                         <br />
-                        <span className="text-2xl md:text-3xl text-gray-500">Uma jornada de resiliência e propósito</span>
+                        <span className="text-2xl md:text-3xl text-gray-500">Uma jornada de desafios, crescimento e transformação</span>
                     </h1>
 
-                    {/* Introdução profunda */}
+                    {/* Infância no futebol */}
                     <section>
                         <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            Eu sou o que chamam de “sobrevivente da persistência”. Cresci no interior do Rio Grande do Sul, cercado por desafios que poderiam ter me derrubado, mas que, na verdade, moldaram quem eu sou hoje. Quando minha mãe ficou doente, a responsabilidade bateu à minha porta cedo. Comecei a trabalhar ainda jovem, entendendo rapidamente o significado de sacrifício, mas também de propósito.
+                            Aos 10 anos, minha vida parecia traçada para o futebol. Jogava como goleiro e fui descoberto por um olheiro do Grêmio durante um torneio. O reconhecimento me levou à base do time, onde vivi uma experiência incrível e morei em Porto Alegre por quase dois anos. Contudo, minha trajetória no esporte foi interrompida quando precisei voltar para casa para cuidar da minha mãe, que estava doente. Sem um retorno financeiro imediato no futebol, a prioridade passou a ser o bem-estar da minha família.
                         </p>
                     </section>
 
-                    {/* Corpo de Bombeiros e o aprendizado de disciplina */}
+                    {/* Trabalho na adolescência */}
                     <section>
-                        <h2 className="text-2xl font-semibold text-gray-800">Disciplinado pela vida</h2>
+                        <h2 className="text-2xl font-semibold text-gray-800">Aprendendo o valor do trabalho</h2>
                         <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            Aprendi o valor do trabalho em equipe, da disciplina e da resiliência. Cada missão de resgate era um lembrete de que as pequenas ações podem ter grandes impactos. Mas também foi ali que percebi que eu queria explorar novos caminhos.
+                            Desde cedo, tive que buscar oportunidades. Com apenas 12 anos, já trabalhava no turno inverso da escola para ajudar em casa. Meu primeiro emprego foi na indústria calçadista de Três Coroas, onde atuei como desenhista técnico de calçados femininos. Essa experiência me ensinou a importância do esforço e da evolução contínua.
+                        </p>
+                    </section>
+
+                    {/* Corpo de Bombeiros */}
+                    <section>
+                        <h2 className="text-2xl font-semibold text-gray-800">Uma década servindo como bombeiro</h2>
+                        <p className="mt-4 text-lg text-gray-700 leading-relaxed">
+                            Aos 18 anos, passei no concurso para o Corpo de Bombeiros, onde servi por oito anos. Durante esse período, aprendi valores que carrego até hoje: disciplina, resiliência, trabalho em equipe e liderança. No entanto, em 2017, comecei a perceber que aquilo não era mais para mim. Lidar diariamente com tragédias e momentos difíceis das pessoas começou a me afetar profundamente. Eu precisava de uma mudança.
                         </p>
                     </section>
 
                     {/* Transição de Carreira */}
                     <section>
-                        <h2 className="text-2xl font-semibold text-gray-800">Mudar para crescer</h2>
+                        <h2 className="text-2xl font-semibold text-gray-800">O salto para a tecnologia</h2>
                         <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            Decidi dar um salto de fé. Em vez de me contentar com uma carreira segura, escolhi a tecnologia como meu novo horizonte. Sem garantias, mas com muita determinação, aprendi a programar, iniciei formações externas e me joguei de cabeça em projetos desafiadores. Os primeiros códigos podem não ter sido perfeitos, mas o progresso era visível a cada tentativa.
+                            Decidi mudar de cidade e fui para Caxias do Sul-RS, onde teria mais oportunidades de estudo e trabalho na área de tecnologia. Iniciei a faculdade de Engenharia de Software enquanto ainda trabalhava como bombeiro, preparando-me financeiramente para a transição. Busquei conhecimento, participei de eventos, fiz networking e me aprofundei em diferentes áreas da tecnologia.
                         </p>
                         <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            Hoje, trabalho como desenvolvedor fullstack, criando soluções digitais no backend com <strong>Node.js</strong> e no frontend com <strong>React</strong>. Também aprimorei minhas habilidades em bancos de dados <strong>PostgreSQL</strong> e infraestrutura na <strong>GCP</strong>, sempre aplicando boas práticas como clean code e documentação técnica.
+                            Em 2022, dei um passo definitivo na minha mudança de carreira. Saí dos bombeiros e comecei a trabalhar com tecnologia, iniciando como estagiário e absorvendo conhecimento em diversas áreas do desenvolvimento de software.
                         </p>
                     </section>
 
-                    {/* Soft Skills e Valores */}
+                    {/* Visão sobre tecnologia */}
                     <section>
-                        <h2 className="text-2xl font-semibold text-gray-800">O que me define</h2>
-                        <ul className="list-disc list-inside mt-4 text-lg text-gray-700">
-                            <li><strong>Resiliência:</strong> Encaro desafios de frente, sabendo que cada um deles me ensina algo novo.</li>
-                            <li><strong>Colaboração:</strong> Valorizo o trabalho em equipe e sei que as melhores soluções nascem da troca de ideias.</li>
-                            <li><strong>Disciplina:</strong> A experiência no Corpo de Bombeiros me deu a base que aplico no meu dia a dia profissional.</li>
-                            <li><strong>Empatia:</strong> Ouvir as pessoas me permite entender melhor os problemas e criar soluções significativas.</li>
-                        </ul>
-                    </section>
-
-                    {/* Conexão com a comunidade */}
-                    <section>
-                        <h2 className="text-2xl font-semibold text-gray-800">Raízes que nunca esqueço</h2>
+                        <h2 className="text-2xl font-semibold text-gray-800">Um desenvolvedor generalista</h2>
                         <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            Mesmo com a transição de carreira, nunca deixei de lado minhas raízes. Continuo como voluntário no Corpo de Bombeiros da minha cidade natal. Esse vínculo me lembra constantemente da importância de contribuir para a comunidade e de que, não importa até onde eu vá, é essencial lembrar de onde eu vim.
+                            Me considero um profissional generalista, com uma visão ampla sobre o ciclo de vida do software. Acredito que um desenvolvedor não deve apenas dominar ferramentas, mas também compreender o negócio, a dor do usuário e o propósito do projeto. Minha jornada me levou a desenvolver soluções tanto no backend, com <strong>Node.js</strong>, quanto no frontend, com <strong>React</strong>, além de aprofundar meus conhecimentos em <strong>PostgreSQL</strong> e infraestrutura na <strong>GCP</strong>.
                         </p>
                     </section>
 
@@ -80,7 +76,6 @@ function About() {
                             className="w-full max-w-md rounded-lg shadow-lg object-cover"
                         />
                     </div>
-
                 </div>
             </div>
 
