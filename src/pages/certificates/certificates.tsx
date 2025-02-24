@@ -13,6 +13,8 @@ import amazon_nuvem from '../../assets/amazon_nuvem.png';
 import PipelineDockerGithubActions from '../../assets/PipelineDockerGithubActions.png';
 import nest from '../../assets/nest.png';
 import desing from '../../assets/desing.png';
+import cleanCode from '../../assets/cleanCode.png';
+import fundamentos from '../../assets/fundamentos.png';
 
 import { useState } from 'react';
 
@@ -30,6 +32,12 @@ interface Project {
 
 
 const projects: Project[] = [
+
+    {
+        "image": cleanCode,
+        "title": "Certificação em Clean Code - Princípios e Técnicas",
+        "description": "Certificação que comprova conhecimentos em Clean Code, abordando princípios e técnicas para escrita de código limpo, legível e de fácil manutenção. Aplicado ao desenvolvimento em JavaScript com ReactJS e Node.js."
+    },
     {
         "image": desing,
         "title": "Certificação em UI Design - Melhorando a Experiência com UI Patterns",
@@ -41,6 +49,12 @@ const projects: Project[] = [
         "title": "Certificação em NestJS - Persistência de Dados com TypeORM e PostgreSQL",
         "description": "Certificação que comprova conhecimentos em NestJS, abordando a persistência de dados com TypeORM e PostgreSQL. Inclui modelagem de entidades, criação de repositórios, migrations, relações entre tabelas e otimização de consultas."
     },
+    {
+        "image": fundamentos,
+        "title": "Certificação em Fundamentos do Node.js",
+        "description": "Certificação que comprova conhecimentos nos fundamentos do Node.js, incluindo Streams, Fundamentos HTTP, Request, Response, Headers, Status Code e Params. Curso oferecido pela Rocketseat."
+    },
+
 
     {
         "image": PipelineDockerGithubActions,
