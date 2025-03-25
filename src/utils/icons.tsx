@@ -1,4 +1,5 @@
 import { JSX } from 'react';
+import { CgVercel } from 'react-icons/cg';
 import { FaReact, FaNodeJs, FaDocker, FaDatabase, FaGoogle, FaAngular, FaHtml5 } from 'react-icons/fa';
 import { SiGraphql, SiPostgresql } from 'react-icons/si';
 
@@ -13,4 +14,5 @@ export const techIcons: { [key: string]: JSX.Element } = {
     'google': <FaGoogle className="text-blue-500" />,
     'Angular': <FaAngular className="text-red-500" />,
     'HTML': <FaHtml5 className="text-red-500" />,
+    'CgVercel': <CgVercel className="text-black" />,
 };

@@ -9,6 +9,9 @@ import logidados from '../../assets/logidados.png';
 import autenticacao from '../../assets/autenticacao.png';
 import uploadImage from '../../assets/uploadImage.png';
 import solid1 from '../../assets/solid1.png';
+import gitguide from '../../assets/gitguide.png';
+
+
 import { useState } from 'react';
 
 // Definindo o tipo dos projetos
@@ -25,6 +28,15 @@ interface Project {
 
 
 const projects: Project[] = [
+    {
+        "image": gitguide,
+        "title": "Git Guru Guide - Guia Interativo de Git",
+        "description": "Uma aplicação web interativa que oferece um guia completo sobre Git, facilitando o aprendizado e a compreensão dos principais comandos e conceitos. Desenvolvido com React e hospedado na Vercel, o projeto proporciona uma experiência dinâmica e amigável para usuários que desejam aprimorar suas habilidades em controle de versão.",
+        "technologies": ["React.js", "CgVercel"],
+        "githubLinkfront": "https://github.com/JeanDares/git-guru-guide",
+        "liveDemoLink": "https://git-guru-guide.vercel.app/",
+        "type": "Frontend"
+    },
     {
         "image": autenticacao,
         "title": "Projeto Back - Sistema Autenticador de Usuários",
